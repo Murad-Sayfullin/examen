@@ -1,0 +1,44 @@
+.sectionOne{
+    margin-top: 80px;
+    position: relative;
+
+    &____row{
+        width: 100%;
+        height: auto;
+      
+    }
+
+    &__title{
+        position: absolute;
+        bottom: 140px;
+        color: $white-color;
+        font-family: 'Montserrat';
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height:  125%;
+        padding: 80px;
+    }
+
+    &__subtitle{
+        position: absolute;
+        bottom: 60px;
+        color: $white-color;
+        font-family: 'Montserrat';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 80px;
+    }
+
+    &__bottom{
+        display: flex;
+    }
+
+    &__img{
+        width: 100%;
+        height: auto;
+    }
+  
+}
